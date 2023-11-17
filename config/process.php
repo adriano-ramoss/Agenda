@@ -3,7 +3,6 @@
 session_start();
 
 include_once("connection.php");
-include_once("url.php");
 
 $data = $_POST;
 
@@ -86,7 +85,7 @@ if (!empty($data)) {
 
 	// Redirect HOME
 
-	header("Location: " . $BASE_URL . "../index.php");
+	header("Location: ../index.php");
 	exit();
 	// SELEÇÃO DE DADOS
 
