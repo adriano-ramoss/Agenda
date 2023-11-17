@@ -1,6 +1,6 @@
 # Projeto de Agenda de Contatos
 
-Este é um projeto de uma aplicação web para gerenciar uma agenda de contatos. A aplicação foi desenvolvida utilizando HTML, CSS, PHP e Bootstrap.
+Este é um projeto de uma aplicação web para gerenciar uma agenda de contatos. A aplicação foi desenvolvida utilizando HTML, CSS, PHP e Bootstrap, Feita exclusivamente para fim de prática.
 
 ## Requisitos
 
@@ -21,4 +21,6 @@ Este é um projeto de uma aplicação web para gerenciar uma agenda de contatos.
 - Adição de novos contatos
 - Edição de contatos existentes
 - Exclusão de contatos
+
+link: https://agenda-production-beb2.up.railway.app/
 
