@@ -33,8 +33,8 @@ include_once("templates/header.php");
                          <td scope="row"><?= $contact["phone"] ?></td>
                          
                          <td class="actions">
-                         <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon"></i></a>
-                         <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact["id"] ?>"><i class="far fa-edit edit-icon"></i></a>
+                         <a href="show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon"></i></a>
+                         <a href="edit.php?id=<?= $contact["id"] ?>"><i class="far fa-edit edit-icon"></i></a>
 
                          <form method="POST" class="delete-form" action="<?= $BASE_URL ?>config/process.php">
 
