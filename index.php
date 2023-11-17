@@ -50,8 +50,7 @@ include_once("templates/header.php");
             </tbody>
         </table>
     <?php else: ?>
-        <p id="empty-list-text">Ainda não há contatos na sua agenda, <a href="<?= 
-        $BASE_URL ?>create.php">Clique aqui para adicionar</a>.</p>
+        <p id="empty-list-text">Ainda não há contatos na sua agenda, <a href="/create.php">Clique aqui para adicionar</a>.</p>
 
     <?php endif; ?>
 
