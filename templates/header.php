@@ -38,7 +38,7 @@ if (isset($_SESSION['msg'])) {
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
 			<a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
-				<img alt="Agenda" src="img/logo.svg">
+				<img alt="Agenda" src="/img/logo.svg">
 			</a>
 
 			<div>
