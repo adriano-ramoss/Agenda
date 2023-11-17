@@ -29,7 +29,7 @@ if (isset($_SESSION['msg'])) {
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!--CSS-->
-	<link rel="stylesheet"  href="<?= $BASE_URL ?>css/styles.css">
+	<link rel="stylesheet"  href="/css/styles.css">
 
 </head>
 <body>
@@ -43,8 +43,8 @@ if (isset($_SESSION['msg'])) {
 
 			<div>
 				<div class="navbar-nav">
-					<a class="nav-link active" id="home-link" href="<?= $BASE_URL ?>index.php">Agenda</a>
-					<a class="nav-link active"  href="/create.php">Adicionar Contato</a>
+					<a class="nav-link active" id="home-link" href="index.php">Agenda</a>
+					<a class="nav-link active"  href="create.php">Adicionar Contato</a>
 					
 				</div>
 			</div>
